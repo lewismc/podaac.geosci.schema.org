@@ -1,0 +1,171 @@
+{
+  "@id": "https://podaac.jpl.nasa.gov/",
+  "@type": "http://schema.org/ResearchProject",
+  "http://schema.org/address": {
+    "@type": "http://schema.org/PostalAddress",
+    "http://schema.org/addressCountry": "USA",
+    "http://schema.org/addressLocality": "Pasadena",
+    "http://schema.org/addressRegion": "CA",
+    "http://schema.org/postalCode": "91009",
+    "http://schema.org/streetAddress": "4800 Oak Grove Drive"
+  },
+  "http://schema.org/availableChannel": {
+    "@type": "http://schema.org/ServiceChannel",
+    "http://schema.org/providesService": {
+      "@type": "http://schema.org/Service",
+      "http://schema.org/description": "Search for webpages, datasets, authors, funding awards, instrumentation and measurements",
+      "http://schema.org/name": "SDRO Website Search",
+      "http://schema.org/potentialAction": {
+        "@type": "http://schema.org/SearchAction",
+        "http://schema.org/query-input": {
+          "@type": "http://schema.org/PropertyValueSpecification",
+          "http://schema.org/valueName": "query_string",
+          "http://schema.org/valueRequired": true
+        },
+        "http://schema.org/target": "https://www.sample-data-repository.org/search?keywords={query_string}"
+      }
+    },
+    "http://schema.org/serviceUrl": "https://www.sample-data-repository.org/search"
+  },
+  "http://schema.org/category": [
+    "Physical Oceanography",
+    "Ocean Surface Topography",
+    "Sea Surface Temperature ",
+    "Ocean Winds",
+    "Sea Surface Salinity",
+    "Gravity",
+    "Ocean Circulation ",
+    "Sea Ice"
+  ],
+  "http://schema.org/contactPoint": {
+    "@type": "http://schema.org/ContactPoint",
+    "http://schema.org/availableLanguage": "en",
+    "http://schema.org/contactType": "customer support",
+    "http://schema.org/email": "podaac@podaac.jpl.nasa.gov",
+    "http://schema.org/name": "PO.DAAC Support",
+    "http://schema.org/url": "https://podaac.jpl.nasa.gov/help"
+  },
+  "http://schema.org/description": "The Physical Oceanography Distributed Active Archive Center (PO.DAAC) is an element of NASA's Earth Observing System Data and Information System (EOSDIS). The EOSDIS provides science data to a wide community of users for NASA's Science Mission Directorate. The mission of the PO.DAAC is to preserve NASA’s ocean and climate data and make these universally accessible and meaningful.",
+  "http://schema.org/foundingDate": "1978-01-01",
+  "http://schema.org/funder": {
+    "@id": "https://doi.org/10.13039/100000141",
+    "@type": "http://schema.org/Organization",
+    "http://schema.org/alternateName": "OCE",
+    "http://schema.org/identifier": {
+      "@type": [
+        "http://schema.org/PropertyValue",
+        "http://purl.org/spar/datacite/ResourceIdentifier"
+      ],
+      "http://schema.org/propertyID": "DOI",
+      "http://schema.org/url": "https://doi.org/10.13039/100000141",
+      "http://schema.org/value": "10.13039/100000141"
+    },
+    "http://schema.org/legalName": "Division of Ocean Sciences",
+    "http://schema.org/parentOrganization": {
+      "@id": "http://doi.org/10.13039/100000085",
+      "@type": "http://schema.org/Organization",
+      "http://schema.org/alternateName": "NSF-GEO",
+      "http://schema.org/identifier": {
+        "@type": [
+          "http://schema.org/PropertyValue",
+          "http://purl.org/spar/datacite/ResourceIdentifier"
+        ],
+        "http://schema.org/propertyID": "DOI",
+        "http://schema.org/url": "https://doi.org/10.13039/100000085",
+        "http://schema.org/value": "10.13039/100000085"
+      },
+      "http://schema.org/legalName": "Directorate for Geosciences",
+      "http://schema.org/parentOrganization": {
+        "@id": "http://dx.doi.org/10.13039/100000001",
+        "@type": "http://schema.org/Organization",
+        "http://schema.org/alternateName": "NSF",
+        "http://schema.org/identifier": {
+          "@type": [
+            "http://schema.org/PropertyValue",
+            "http://purl.org/spar/datacite/ResourceIdentifier"
+          ],
+          "http://schema.org/propertyID": "DOI",
+          "http://schema.org/url": "https://doi.org/10.13039/100000001",
+          "http://schema.org/value": "10.13039/100000001"
+        },
+        "http://schema.org/legalName": "National Science Foundation",
+        "http://schema.org/url": "http://www.nsf.gov"
+      },
+      "http://schema.org/url": "http://www.nsf.gov"
+    },
+    "http://schema.org/url": "https://www.nsf.gov/div/index.jsp?div=OCE"
+  },
+  "http://schema.org/hasOfferCatalog": {
+    "@type": "http://schema.org/OfferCatalog",
+    "http://schema.org/itemListElement": [
+      {
+        "@id": "https://www.sample-data-repository.org/collection/biological-data",
+        "@type": "http://schema.org/DataCatalog",
+        "http://schema.org/audience": {
+          "@type": "http://schema.org/Audience",
+          "http://schema.org/audienceType": "public",
+          "http://schema.org/name": "General Public"
+        },
+        "http://schema.org/name": "Biological Data"
+      },
+      {
+        "@id": "https://www.sample-data-repository.org/collection/geological-data",
+        "@type": "http://schema.org/DataCatalog",
+        "http://schema.org/audience": {
+          "@type": "http://schema.org/Audience",
+          "http://schema.org/audienceType": "public",
+          "http://schema.org/name": "General Public"
+        },
+        "http://schema.org/name": "Geological Data"
+      }
+    ],
+    "http://schema.org/name": "Sample Data Repository Resource Catalog"
+  },
+  "http://schema.org/legalName": "Physical Oceanography Data Active Archive Center",
+  "http://schema.org/logo": {
+    "@type": "http://schema.org/ImageObject",
+    "http://schema.org/url": "https://podaac.jpl.nasa.gov/sites/all/themes/podaac/logo.png"
+  },
+  "http://schema.org/name": "PO.DAAC",
+  "http://schema.org/parentOrganization": {
+    "@id": "https://www.jpl.nasa.gov/",
+    "@type": "http://schema.org/Organization",
+    "http://schema.org/address": {
+      "@type": "http://schema.org/PostalAddress",
+      "http://schema.org/addressCountry": "USA",
+      "http://schema.org/addressLocality": "Pasadena",
+      "http://schema.org/addressRegion": "CA",
+      "http://schema.org/postalCode": "91009",
+      "http://schema.org/streetAddress": "4800 Oak Grove Drive"
+    },
+    "http://schema.org/legalName": "Jet Propulsion Laboratory",
+    "http://schema.org/name": "JPL",
+    "http://schema.org/parentOrganization": {
+      "@id": "https://www.caltech.edu/",
+      "@type": "http://schema.org/Organization",
+      "http://schema.org/address": {
+        "@type": "http://schema.org/PostalAddress",
+        "http://schema.org/addressCountry": "USA",
+        "http://schema.org/addressLocality": "Pasadena",
+        "http://schema.org/addressRegion": "CA",
+        "http://schema.org/postalCode": "91125",
+        "http://schema.org/streetAddress": "1200 East California Boulevard"
+      },
+      "http://schema.org/legalName": "California Institute of Technology",
+      "http://schema.org/name": "Caltech",
+      "http://schema.org/url": "https://www.caltech.edu/"
+    },
+    "http://schema.org/url": "https://www.jpl.nasa.gov/"
+  },
+  "http://schema.org/provider": {
+    "@id": "https://podaac.jpl.nasa.gov/"
+  },
+  "http://schema.org/sameAs": [
+    "https://www.youtube.com/user/NASAJPLPODAAC",
+    "https://mobile.facebook.com/podaac/",
+    "https://www.facebook.com/podaac/",
+    "https://twitter.com/podaac",
+    ""
+  ],
+  "http://schema.org/url": "https://podaac.jpl.nasa.gov/"
+}
