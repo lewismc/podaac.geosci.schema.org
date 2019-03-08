@@ -106,8 +106,8 @@
       "serviceUrl":"https://podaac.jpl.nasa.gov/",
       "providesService":{
         "@type":"Service",
-        "name":"PO.DAAC Website Search",
-        "description":"Search the PO.DAAC forum content covering general questions, data recipes, data access, ocean stories discussions, animations and tutorials and PO.DAAC meetings and workshops.",
+        "name":"PO.DAAC Forum Search",
+        "description":"Search the PO.DAAC Forum content covering general questions, data recipes, data access, ocean stories discussions, animations and tutorials and PO.DAAC meetings and workshops.",
         "potentialAction":{
           "@type":"SearchAction",
           "target":"https://podaac.jpl.nasa.gov/forum/search.php?keywords={query_string}",
