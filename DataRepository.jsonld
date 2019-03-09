@@ -38,32 +38,6 @@
     "http://schema.org/postalCode":"91009",
     "http://schema.org/streetAddress":"4800 Oak Grove Drive"
   },
-  "http://schema.org/hasOfferCatalog":{
-    "@type":"OfferCatalog",
-    "name":"PO.DAAC Data Collections",
-    "itemListElement":[
-      {
-        "@type":"DataCatalog",
-        "@id":"https://podaac.jpl.nasa.gov/datasetlist?ids=Measurement&values=Atmospheric%20Pressure&view=list",
-        "name":"Atmospheric Pressure Parameter",
-        "audience":{
-          "@type":"Audience",
-          "audienceType":"public",
-          "name":"General Public"
-        }
-      },
-      {
-        "@type":"DataCatalog",
-        "@id":"https://podaac.jpl.nasa.gov/datasetlist?ids=Measurement&values=Atmospheric%20Radiation&view=list",
-        "name":"Atmospheric Radiation Parameter",
-        "audience":{
-          "@type":"Audience",
-          "audienceType":"public",
-          "name":"General Public"
-        }
-      }
-    ]
-  },
   "http://schema.org/availableChannel":[
     {
       "@type":"ServiceChannel",
@@ -157,7 +131,7 @@
   "http://schema.org/legalName":"Physical Oceanography Data Active Archive Center",
   "http://schema.org/logo":{
     "@type":"http://schema.org/ImageObject",
-    "http://schema.org/url":"https://podaac.jpl.nasa.gov/sites/all/themes/podaac/logo.png"
+    "https://podaac.jpl.nasa.gov/sites/default/files/image/custom_thumbs/podaac_logo.png"
   },
   "http://schema.org/name":"PO.DAAC",
   "http://schema.org/parentOrganization":{
