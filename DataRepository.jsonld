@@ -97,11 +97,11 @@
   "http://schema.org/category":[
     "Physical Oceanography",
     "Ocean Surface Topography",
-    "Sea Surface Temperature ",
+    "Sea Surface Temperature",
     "Ocean Winds",
     "Sea Surface Salinity",
     "Gravity",
-    "Ocean Circulation ",
+    "Ocean Circulation",
     "Sea Ice"
   ],
   "http://schema.org/contactPoint":{
@@ -171,8 +171,7 @@
     "https://www.youtube.com/user/NASAJPLPODAAC",
     "https://mobile.facebook.com/podaac/",
     "https://www.facebook.com/podaac/",
-    "https://twitter.com/podaac",
-    ""
+    "https://twitter.com/podaac"
   ],
   "http://schema.org/url":"https://podaac.jpl.nasa.gov/"
 }
