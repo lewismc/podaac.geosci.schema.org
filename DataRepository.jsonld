@@ -1,47 +1,51 @@
 {
-  "@id":"https://podaac.jpl.nasa.gov/",
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "sweet": "http://sweetontology.net/"
+  },
+  "@id":"https://podaac.jpl.nasa.gov",
   "@type":[
     "http://schema.org/Service",
     "http://schema.org/ResearchProject"
   ],
   "http://sweetontology.net/rela/hasRealm":[
     {
-      "@id":"http://sweetontology.net/humanKnowledgeDomain/Biogeochemistry"
+      "@id":"sweet:humanKnowledgeDomain/Biogeochemistry"
     },
     {
-      "@id":"http://sweetontology.net/humanKnowledgeDomain/Climatology"
+      "@id":"sweet:humanKnowledgeDomain/Climatology"
     },
     {
-      "@id":"http://sweetontology.net/humanKnowledgeDomain/Geochemistry"
+      "@id":"sweet:humanKnowledgeDomain/Geochemistry"
     },
     {
-      "@id":"http://sweetontology.net/humanKnowledgeDomain/Hydrology"
+      "@id":"sweet:humanKnowledgeDomain/Hydrology"
     },
     {
-      "@id":"http://sweetontology.net/humanKnowledgeDomain/MarineScience"
+      "@id":"sweet:humanKnowledgeDomain/MarineScience"
     },
     {
-      "@id":"http://sweetontology.net/humanKnowledgeDomain/Oceanography"
+      "@id":"sweet:humanKnowledgeDomain/Oceanography"
     },
     {
-      "@id":"http://sweetontology.net/humanKnowledgeDomain/Oceanology"
+      "@id":"sweet:humanKnowledgeDomain/Oceanology"
     },
     {
-      "@id":"http://sweetontology.net/humanKnowledgeDomain/Phenology"
+      "@id":"sweet:humanKnowledgeDomain/Phenology"
     }
   ],
-  "http://schema.org/address":{
-    "@type":"http://schema.org/PostalAddress",
-    "http://schema.org/addressCountry":"USA",
-    "http://schema.org/addressLocality":"Pasadena",
-    "http://schema.org/addressRegion":"CA",
-    "http://schema.org/postalCode":"91009",
-    "http://schema.org/streetAddress":"4800 Oak Grove Drive"
+  "address":{
+    "@type":"PostalAddress",
+    "addressCountry":"USA",
+    "addressLocality":"Pasadena",
+    "addressRegion":"CA",
+    "postalCode":"91009",
+    "streetAddress":"4800 Oak Grove Drive"
   },
-  "http://schema.org/availableChannel":[
+  "availableChannel":[
     {
       "@type":"ServiceChannel",
-      "serviceUrl":"https://podaac.jpl.nasa.gov/",
+      "serviceUrl":"https://podaac.jpl.nasa.gov",
       "providesService":{
         "@type":"Service",
         "name":"PO.DAAC Data Search",
@@ -59,7 +63,7 @@
     },
     {
       "@type":"ServiceChannel",
-      "serviceUrl":"https://podaac.jpl.nasa.gov/",
+      "serviceUrl":"https://podaac.jpl.nasa.gov",
       "providesService":{
         "@type":"Service",
         "name":"PO.DAAC Website Search",
@@ -77,7 +81,7 @@
     },
     {
       "@type":"ServiceChannel",
-      "serviceUrl":"https://podaac.jpl.nasa.gov/",
+      "serviceUrl":"https://podaac.jpl.nasa.gov",
       "providesService":{
         "@type":"Service",
         "name":"PO.DAAC Forum Search",
@@ -94,7 +98,7 @@
       }
     }
   ],
-  "http://schema.org/category":[
+  "category":[
     "Physical Oceanography",
     "Ocean Surface Topography",
     "Sea Surface Temperature",
@@ -104,22 +108,22 @@
     "Ocean Circulation",
     "Sea Ice"
   ],
-  "http://schema.org/contactPoint":{
-    "@type":"http://schema.org/ContactPoint",
-    "http://schema.org/availableLanguage":"en",
-    "http://schema.org/contactType":"customer support",
-    "http://schema.org/email":"podaac@podaac.jpl.nasa.gov",
-    "http://schema.org/name":"PO.DAAC Support",
-    "http://schema.org/url":"https://podaac.jpl.nasa.gov/help"
+  "contactPoint":{
+    "@type":"ContactPoint",
+    "availableLanguage":"en",
+    "contactType":"customer support",
+    "email":"podaac@podaac.jpl.nasa.gov",
+    "name":"PO.DAAC Support",
+    "url":"https://podaac.jpl.nasa.gov/help"
   },
-  "http://schema.org/description":"The Physical Oceanography Distributed Active Archive Center (PO.DAAC) is an element of NASA's Earth Observing System Data and Information System (EOSDIS). The EOSDIS provides science data to a wide community of users for NASA's Science Mission Directorate. The mission of the PO.DAAC is to preserve NASA’s ocean and climate data and make these universally accessible and meaningful.",
-  "http://schema.org/foundingDate":"1978-01-01",
-  "http://schema.org/funder":{
+  "description":"The Physical Oceanography Distributed Active Archive Center (PO.DAAC) is an element of NASA's Earth Observing System Data and Information System (EOSDIS). The EOSDIS provides science data to a wide community of users for NASA's Science Mission Directorate. The mission of the PO.DAAC is to preserve NASA’s ocean and climate data and make these universally accessible and meaningful.",
+  "foundingDate":"1978-01-01",
+  "funder":{
     "@id":"https://earthdata.nasa.gov/about/esdis-project",
-    "@type":"http://schema.org/Organization",
-    "http://schema.org/alternateName":"ESDIS",
-    "http://schema.org/legalName":"NASA Earth Science Data and Information System",
-    "http://schema.org/url":"https://earthdata.nasa.gov/about/esdis-project",
+    "@type":"Organization",
+    "alternateName":"ESDIS",
+    "legalName":"NASA Earth Science Data and Information System",
+    "url":"https://earthdata.nasa.gov/about/esdis-project",
     "parentOrganization":{
       "@id":"http://dbpedia.org/resource/NASA",
       "@type":"Organization",
@@ -128,50 +132,50 @@
       "url":"https://www.nasa.gov/"
     }
   },
-  "http://schema.org/legalName":"Physical Oceanography Data Active Archive Center",
-  "http://schema.org/logo":{
-    "@type":"http://schema.org/ImageObject",
+  "legalName":"Physical Oceanography Data Active Archive Center",
+  "logo":{
+    "@type":"ImageObject",
     "https://podaac.jpl.nasa.gov/sites/default/files/image/custom_thumbs/podaac_logo.png"
   },
-  "http://schema.org/name":"PO.DAAC",
-  "http://schema.org/parentOrganization":{
+  "name":"PO.DAAC",
+  "parentOrganization":{
     "@id":"http://dbpedia.org/resource/Jet_Propulsion_Laboratory",
-    "@type":"http://schema.org/Organization",
-    "http://schema.org/address":{
-      "@type":"http://schema.org/PostalAddress",
-      "http://schema.org/addressCountry":"USA",
-      "http://schema.org/addressLocality":"Pasadena",
-      "http://schema.org/addressRegion":"CA",
-      "http://schema.org/postalCode":"91009",
-      "http://schema.org/streetAddress":"4800 Oak Grove Drive"
+    "@type":"Organization",
+    "address":{
+      "@type":"PostalAddress",
+      "addressCountry":"USA",
+      "addressLocality":"Pasadena",
+      "addressRegion":"CA",
+      "postalCode":"91009",
+      "streetAddress":"4800 Oak Grove Drive"
     },
-    "http://schema.org/legalName":"Jet Propulsion Laboratory",
-    "http://schema.org/name":"JPL",
-    "http://schema.org/parentOrganization":{
+    "legalName":"Jet Propulsion Laboratory",
+    "name":"JPL",
+    "parentOrganization":{
       "@id":"http://dbpedia.org/resource/California_Institute_of_Technology",
-      "@type":"http://schema.org/Organization",
-      "http://schema.org/address":{
-        "@type":"http://schema.org/PostalAddress",
-        "http://schema.org/addressCountry":"USA",
-        "http://schema.org/addressLocality":"Pasadena",
-        "http://schema.org/addressRegion":"CA",
-        "http://schema.org/postalCode":"91125",
-        "http://schema.org/streetAddress":"1200 East California Boulevard"
+      "@type":"Organization",
+      "address":{
+        "@type":"PostalAddress",
+        "addressCountry":"USA",
+        "addressLocality":"Pasadena",
+        "addressRegion":"CA",
+        "postalCode":"91125",
+        "streetAddress":"1200 East California Boulevard"
       },
-      "http://schema.org/legalName":"California Institute of Technology",
-      "http://schema.org/name":"Caltech",
-      "http://schema.org/url":"https://www.caltech.edu/"
+      "legalName":"California Institute of Technology",
+      "name":"Caltech",
+      "url":"https://www.caltech.edu/"
     },
-    "http://schema.org/url":"https://www.jpl.nasa.gov/"
+    "url":"https://www.jpl.nasa.gov/"
   },
-  "http://schema.org/provider":{
-    "@id":"https://podaac.jpl.nasa.gov/"
+  "provider":{
+    "@id":"https://podaac.jpl.nasa.gov"
   },
-  "http://schema.org/sameAs":[
+  "sameAs":[
     "https://www.youtube.com/user/NASAJPLPODAAC",
     "https://mobile.facebook.com/podaac/",
     "https://www.facebook.com/podaac/",
     "https://twitter.com/podaac"
   ],
-  "http://schema.org/url":"https://podaac.jpl.nasa.gov/"
+  "url":"https://podaac.jpl.nasa.gov"
 }
