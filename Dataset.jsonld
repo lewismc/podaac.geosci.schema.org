@@ -1,7 +1,8 @@
 {
   "@context": {
     "@vocab": "http://schema.org/",
-    "datacite": "http://purl.org/spar/datacite/"
+    "datacite": "http://purl.org/spar/datacite/",
+    "dbpedia": "http://dbpedia.org/resource/"
   },
   "@type": "Dataset",
   "name": "GHRSST Level 2P Global Skin Sea Surface Temperature from the Advanced Along Track Scanning Radiometer (AATSR) on the ESA Envisat satellite produced by UPA",
@@ -39,12 +40,12 @@
     "contentUrl": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ghrsst/data/L2P/ATS_NR_2P/UPA",
     "encodingFormat": "application/x-netcdf"
   },
-  "temporalCoverage": ".../...",
+  "temporalCoverage": "2012-09-20/..",
   "spatialCoverage": {
     "@type": "Place",
     "geo": {
       "@type": "GeoShape",
-      "box": "..."
+      "box": "39.3280 120.1633 40.445 123.7878"
     }
   },
   "additionalProperty": {
